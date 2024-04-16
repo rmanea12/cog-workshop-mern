@@ -37,7 +37,7 @@ const Header = () => {
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>
-              <img src={logo} alt='Cognizant Workshop' />
+              <img src={logo} alt='Cognizant Workshop' style ={{paddingRight: '10px'}}/>
               Cognizant Workshop
             </Navbar.Brand>
           </LinkContainer>
